@@ -72,6 +72,9 @@
     {{ end }}
 
     {{ partial "criticalpath.html" . }}
+    <!--TODO: criticalpath.htmlに書かれているcssと被ってる部分あるかもなので、整理する-->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/crisp.css" type="text/css" />
+
     </head>
     <body>
         <header id="header">
