@@ -14,30 +14,33 @@ html {
 	height: 100%;
 }
 body {
-	padding: 2em 2.5em 1em 20em;
+	padding: 2em 20em 1em 2em;
+
 }                  
 /* Blocks */
 header {
-	border-right: 1px #eee solid;
+    /*border-left: 1px #eee solid;*/
 	padding: 2em;
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 	height:100%;
-	width:13.5em;
+	width:12.5em;
 }
 #content {
 	display: block;
 	width: 100%;
 }
 footer {
-	padding: 1em 0em 2.5em 0em;
+	padding: 1em 0em 0em 0em;
 	font-size:0.8em;
 	line-height: 1.5em;
 	color: #888;
 }
 article {
-	border-bottom: 0.1em #eee solid;
+    border-right: 1px #eee solid;
+    padding-right: 1.7em;
+
 	padding-bottom: 1.7em;
 	max-width: 56em;
 }
@@ -285,6 +288,10 @@ footer a:hover {
 	footer {
 		padding: 0 2.5em 2em 2.5em;
 	}
+	article {
+	    border-right: none;
+	    padding-right: 0;
+	}
 }
 /* Tiny Screens */
 @media only screen and (max-width: 320px) { 
@@ -296,6 +303,10 @@ footer a:hover {
 	}
 	footer {
 		padding: 0 1.5em 1.2em 1.5em;
+	}
+	article {
+	    border-right: none;
+	    padding-right: 0;
 	}
 	ul, ol {
 		margin-left: 2em; 
