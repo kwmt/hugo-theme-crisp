@@ -85,6 +85,18 @@
 
     </head>
     <body>
+
+        <!--facebookいいねボタン用スクリプト-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=221529537867804";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+
         <header id="header">
             <a id="logo" href="{{ .Site.BaseURL }}"><img src="https://ja.gravatar.com/userimage/93860812/00b6ee3c5005fbd5ca9a4571908ce3ee.jpg?size=200" alt="{{ .Site.Title }}" /></a>
             <h1><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h1>
