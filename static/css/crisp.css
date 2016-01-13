@@ -111,6 +111,23 @@ hr{
 ul, ol {
 	margin-left: 3em; 
 }
+
+#share-top ul {
+    margin: 10px 0;
+    list-style: none;
+}
+#share-top li {
+    margin-right: 10px;
+    display:inline-block;
+}
+
+/*
+いいねボタンが下にずれる対応
+https://h2ham.net/facebook-like-button-vertical-problem
+*/
+.fb_iframe_widget > span {
+  vertical-align: baseline !important;
+}
 code {
 	font-size:1.4em;
 	background: #eee;
