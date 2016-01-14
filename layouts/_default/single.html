@@ -18,10 +18,11 @@
     </div>
     <h1 class="post-title">{{ .Title }}</h1>
 
-    {{ partial "share_count.html" . }}
+    {{ partial "share_standard.html" . }}
+    {{ partial "ad.html" . }}
     {{ .Content }}
     {{ partial "ad.html" . }}
-    {{ partial "share_count.html" . }}
+    {{ partial "share_vertical.html" . }}
     {{ partial "share.html" . }}
     {{ partial "related.html" . }}
     <!--{{ partial "author.html" . }}-->
