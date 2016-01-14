@@ -113,7 +113,7 @@ ul, ol {
 }
 
 #share-top ul {
-    margin: 10px 0;
+    margin: 30px 0;
     list-style: none;
 }
 #share-top li {
@@ -264,6 +264,14 @@ h3.post-title {
 	padding-bottom: 0.2em;
 	border-bottom: 1px solid #eee;
 }
+#ad aside > p {
+    margin-bottom:0em;
+}
+.responsive-unit{
+  max-width: 336px;
+  padding-bottom: 50px;
+}
+
 /* Footer */
 .pagination {
 	margin-bottom:1em;
