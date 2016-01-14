@@ -217,6 +217,18 @@ header #logo img {
 header h6 {
 	margin-top:0.5em;
 }
+
+span.badge {
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 2.0em;
+    margin: 2px;
+    padding: 4px;
+    min-width: 20px;
+    border-radius: 6px;
+    color: #CCC;
+    background: #FFF;
+}
 /* Posts */
 article span.post-stamp {
 	color:#888;     

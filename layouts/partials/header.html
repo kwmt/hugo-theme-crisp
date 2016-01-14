@@ -104,4 +104,15 @@
 
             {{ partial "follow.html" . }}
             {{ partial "navigation.html" . }}
+
+            <div>タグ</div>
+            <span class="taglist">
+                {{ range $name, $value := $.Site.Taxonomies.tags }}
+                    <a href="{{ $.Site.BaseURL }}/tags/{{ $name }}/">
+                        <div>{{ $name }}<span class="badge">{{ .Count }}</span></div>
+                    </a>
+                {{ end }}
+            </span>
+
+
         </header>
