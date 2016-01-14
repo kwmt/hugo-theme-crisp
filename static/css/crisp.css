@@ -317,6 +317,9 @@ footer a:hover {
 		text-align:center;
 		padding-bottom:1em;
 	}
+	header .tags {
+	    display:none;
+	}
 	#content {
 		margin-left: 0;
 		padding: 2em 2em 1em 2em;
@@ -335,6 +338,10 @@ footer a:hover {
 	header {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}
+    header .tags {
+        display:none;
+    }
+
 	#content {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}
